@@ -1,0 +1,16 @@
+git commit -m
+ssh -keygen -t ed25519 -C "micorreo"
+ssh-add ~/.ssh/id_ed25519
+cat 
+…or create a new repository on the command line
+echo "# Vanilla_php" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/VictorMM07/Vanilla_php.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/VictorMM07/Vanilla_php.git
+git branch -M main
+git push -u origin main
